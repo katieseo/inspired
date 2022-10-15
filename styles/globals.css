@@ -273,17 +273,17 @@ footer a {
 }
 
 .parallax-img1 {
-  background-image: url("../public/img/pexels-cottonbro-3585031.jpg");
+  background-image: url("/img/pexels-cottonbro-3585031.jpg");
   min-height: 95vh;
 }
 
 .parallax-img2 {
-  background-image: url("../public/img/pexels-angela-roma-7319336.jpg");
+  background-image: url("/img/pexels-angela-roma-7319336.jpg");
   min-height: 80vh;
 }
 
 .parallax-img3 {
-  background-image: url("../public/img/pexels-max-vakhtbovych-6434617.jpg");
+  background-image: url("/img/pexels-max-vakhtbovych-6434617.jpg");
   min-height: 80vh;
 }
 
