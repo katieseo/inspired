@@ -254,6 +254,10 @@ footer a {
   text-align: center;
 }
 
+.parallax-bg h2 {
+  text-shadow: 0 0 3px #cccecc;
+}
+
 .parallax-bg p {
   max-width: 30rem;
 }
@@ -268,7 +272,7 @@ footer a {
   background-attachment: scroll;
   background-position: center;
   justify-content: center;
-  opacity: 0.7;
+  opacity: 0.95;
   position: relative;
 }
 
