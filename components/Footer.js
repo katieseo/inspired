@@ -1,5 +1,5 @@
 const Footer = () => {
-  return <footer>Copyright @ inpired web creativity</footer>;
+  return <footer>Copyright © inpired web creativity</footer>;
 };
 
 export default Footer;
