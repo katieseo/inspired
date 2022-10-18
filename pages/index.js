@@ -12,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="main home">
+      <main className="showcase home">
         <h6>
           Collection of <br /> Modern Web Inspiration
         </h6>

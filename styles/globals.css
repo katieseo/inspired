@@ -20,6 +20,11 @@ a {
   box-sizing: border-box;
 }
 
+img,
+iframe {
+  max-width: 100%;
+}
+
 /* Headings 
 ------------------------------ */
 
@@ -93,7 +98,6 @@ header > * {
 .nav-icon,
 .nav-icon::before,
 .nav-icon::after {
-  background: #1e1f1f;
   display: block;
   height: 3px;
   position: relative;
@@ -102,15 +106,18 @@ header > * {
 }
 
 .nav-icon {
+  background: #1e1f1f;
   top: 12px;
 }
 
 .nav-icon::before {
+  background: #1e1f1f;
   content: " ";
   top: -8px;
 }
 
 .nav-icon::after {
+  background: #1e1f1f;
   content: " ";
   top: 5px;
 }
@@ -163,15 +170,12 @@ nav ul li a {
 
 /* main
 ------------------------------*/
-.container {
-  padding: 0;
-}
 
 main {
-  padding-top: 4.5rem;
+  padding: 4.5rem 3%;
 }
 
-.main {
+.showcase {
   min-height: 80vh;
   padding: 8rem 2%;
   flex: 1;
@@ -179,6 +183,11 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.page-title {
+  padding: 3rem 0 5rem;
+  text-align: center;
 }
 
 /* Footer
@@ -201,12 +210,12 @@ footer a {
 
 /* Home
 ------------------------------*/
-.main.home {
+.home {
   background: #cbe2e0;
   text-align: center;
 }
 
-.main.home iframe {
+.home iframe {
   border: 0;
   max-width: 100%;
   min-height: 350px;
@@ -219,19 +228,19 @@ footer a {
 
 /* 3d
 ------------------------------*/
-.main.multi {
+.multi {
   background: #1e1f1f;
   text-align: center;
 }
 
-.main.multi iframe {
+.multi iframe {
   border: 0;
   max-width: 100%;
   min-height: 500px;
   width: 800px;
 }
 
-.main.multi h2 {
+.multi h2 {
   color: #fff;
 }
 
@@ -239,26 +248,25 @@ footer a {
 ------------------------------*/
 
 .parallax-bg {
+  padding-left: 0;
+  padding-right: 0;
   text-align: center;
 }
 
 .parallax-bg section {
   align-items: center;
-  background: hsla(180, 2%, 12%, 0.5);
   font-family: "Cardo", serif;
   display: flex;
   color: #fff;
   justify-content: center;
   padding: 3rem;
-  min-height: 300px;
+  min-height: 500px;
   text-align: center;
 }
 
-.parallax-bg h2 {
-  text-shadow: 0 0 3px #cccecc;
-}
-
 .parallax-bg p {
+  font-size: 1.4rem;
+  line-height: 3;
   max-width: 30rem;
 }
 
@@ -298,13 +306,13 @@ footer a {
     font-size: 2.4rem;
   }
 
-  .main.home iframe.ani-large {
+  .showcase.home iframe.ani-large {
     display: block;
     min-height: 500px;
     width: 800px;
   }
 
-  .main.home iframe.ani-small {
+  .showcase.home iframe.ani-small {
     display: none;
   }
 

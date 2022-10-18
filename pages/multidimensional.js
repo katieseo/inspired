@@ -3,7 +3,7 @@ import React from "react";
 const multidimensional = () => {
   return (
     <div className="container">
-      <main className="main multi">
+      <main className="showcase multi">
         <h6>3D Web Experience</h6>
         <h2>
           3D opens a new door for creativity and it has been easier and more fun
