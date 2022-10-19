@@ -1,8 +1,8 @@
 import React from "react";
 import Masonry from "react-masonry-css";
-import { masonryData } from "./api/data";
+import { masonryData } from "../api/data";
 
-const masonry = () => {
+const MasonryLayout = () => {
   const breakpointColumnsObj = {
     default: 7,
     2000: 6,
@@ -62,7 +62,7 @@ const masonry = () => {
           border-radius: 4px;
           font-size: 0.8rem;
           margin-bottom: 50px;
-          padding: 30px 20px;
+          padding: 30px 6%;
           text-align: center;
         }
       `}</style>
@@ -70,4 +70,4 @@ const masonry = () => {
   );
 };
 
-export default masonry;
+export default MasonryLayout;

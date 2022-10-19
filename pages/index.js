@@ -25,6 +25,36 @@ export default function Home() {
           src="https://my.spline.design/untitled-2ed143459f10b9b62065c65d5e7d8982/"
           className="ani-large"
         ></iframe>
+
+        <style jsx>{`
+          .home {
+            background: #cbe2e0;
+            text-align: center;
+          }
+
+          .home iframe {
+            border: 0;
+            max-width: 100%;
+            min-height: 350px;
+            width: 100%;
+          }
+
+          .ani-large {
+            display: none;
+          }
+
+          @media (min-width: 800px) {
+            .showcase.home iframe.ani-large {
+              display: block;
+              min-height: 500px;
+              width: 800px;
+            }
+
+            .showcase.home iframe.ani-small {
+              display: none;
+            }
+          }
+        `}</style>
       </main>
     </div>
   );

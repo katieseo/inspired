@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat:wght@500&family=Montserrat+Subrayada:wght@700&display=swap");
 
 html,
 body {
@@ -52,11 +52,11 @@ h6 {
 
 .rainbow:hover {
   animation: rainbow 2s ease-in-out infinite;
-  background: linear-gradient(to right, crimson, pink, springgreen);
+  background: linear-gradient(to right, #e7a39f, #8cbcdc);
   background-clip: text;
   background-size: 200% 200%;
-  color: rgba(0, 0, 0, 0);
   -webkit-background-clip: text;
+  color: rgba(0, 0, 0, 0);
 }
 
 @keyframes rainbow {
@@ -111,13 +111,13 @@ header > * {
 }
 
 .nav-icon::before {
-  background: #1e1f1f;
+  background: #4d6c81;
   content: " ";
   top: -8px;
 }
 
 .nav-icon::after {
-  background: #1e1f1f;
+  background: #e7a39f;
   content: " ";
   top: 5px;
 }
@@ -139,7 +139,7 @@ nav > ul {
   left: 0;
   list-style: none;
   min-height: 100vh;
-  padding-top: 3rem;
+  padding: 3rem 1rem;
   position: absolute;
   transition: all 0.5s ease-in-out;
   width: 300px;
@@ -151,7 +151,12 @@ nav > ul.navClosed {
 
 nav ul li a {
   display: inline-block;
-  padding: 20px 0;
+  margin-bottom: 30px;
+  padding: 3px 5px 3px 20px;
+}
+
+.active a {
+  border-left: 2px solid black;
 }
 
 .logo {
@@ -208,117 +213,10 @@ footer a {
   flex-grow: 1;
 }
 
-/* Home
-------------------------------*/
-.home {
-  background: #cbe2e0;
-  text-align: center;
-}
-
-.home iframe {
-  border: 0;
-  max-width: 100%;
-  min-height: 350px;
-  width: 100%;
-}
-
-.ani-large {
-  display: none;
-}
-
-/* 3d
-------------------------------*/
-.multi {
-  background: #1e1f1f;
-  text-align: center;
-}
-
-.multi iframe {
-  border: 0;
-  max-width: 100%;
-  min-height: 500px;
-  width: 800px;
-}
-
-.multi h2 {
-  color: #fff;
-}
-
-/* parallax fixed bg
-------------------------------*/
-
-.parallax-bg {
-  padding-left: 0;
-  padding-right: 0;
-  text-align: center;
-}
-
-.parallax-bg section {
-  align-items: center;
-  font-family: "Cardo", serif;
-  display: flex;
-  color: #fff;
-  justify-content: center;
-  padding: 3rem;
-  min-height: 500px;
-  text-align: center;
-}
-
-.parallax-bg p {
-  font-size: 1.4rem;
-  line-height: 3;
-  max-width: 30rem;
-}
-
-.parallax-img1,
-.parallax-img2,
-.parallax-img3 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: center;
-  justify-content: center;
-  opacity: 0.95;
-  position: relative;
-}
-
-.parallax-img1 {
-  background-image: url("/img/pexels-cottonbro-3585031.jpg");
-  min-height: 95vh;
-}
-
-.parallax-img2 {
-  background-image: url("/img/pexels-angela-roma-7319336.jpg");
-  min-height: 80vh;
-}
-
-.parallax-img3 {
-  background-image: url("/img/pexels-max-vakhtbovych-6434617.jpg");
-  min-height: 80vh;
-}
-
 /* Media query
 ------------------------------*/
 @media (min-width: 800px) {
   h2 {
     font-size: 2.4rem;
-  }
-
-  .showcase.home iframe.ani-large {
-    display: block;
-    min-height: 500px;
-    width: 800px;
-  }
-
-  .showcase.home iframe.ani-small {
-    display: none;
-  }
-
-  .parallax-img1,
-  .parallax-img2,
-  .parallax-img3 {
-    background-attachment: fixed;
   }
 }
