@@ -10,11 +10,11 @@ const TextBgAnimation = () => {
       </div>
       <style jsx>{`
         .text-bg-animation {
-          background: #4d6c81;
+          background: #cbe2e0;
         }
 
         .typography {
-          color: rgba(77, 108, 129, 0.2);
+          color: rgba(50, 50, 129, 0.4);
           font-size: 7rem;
           letter-spacing: 1rem;
           line-height: 0.86;
