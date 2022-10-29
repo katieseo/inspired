@@ -8,8 +8,8 @@ const MasonryLayout = () => {
     2000: 6,
     1800: 5,
     1400: 4,
-    1000: 3,
-    780: 2,
+    800: 3,
+    600: 2,
     400: 1,
   };
 
@@ -58,12 +58,11 @@ const MasonryLayout = () => {
         /* Style items */
         .masonry-grid_column > div {
           /* change div to reference elements in <Masonry> */
-          background: white;
           border-radius: 4px;
-          font-size: 0.8rem;
-          margin-bottom: 50px;
+          color: white;
+          font-size: 0.75rem;
+          font-weight: 300;
           padding: 30px 6%;
-          text-align: center;
         }
       `}</style>
     </main>

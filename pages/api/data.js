@@ -69,4 +69,19 @@ export const masonryData = [
     img: "https://i.pinimg.com/236x/d5/4d/45/d54d45b888ddc411a060cfde94b944c4.jpg",
     title: "VANS | Communication Arts",
   },
+  {
+    id: 14,
+    img: "https://i.pinimg.com/236x/dd/a9/2e/dda92e963027436b7d7fee075dae845b.jpg",
+    title: "Stout Holiday Cards | Communication Arts",
+  },
+  {
+    id: 15,
+    img: "https://i.pinimg.com/236x/9f/8a/ff/9f8aff1b68c396c3b950ce9a0189c529.jpg",
+    title: "SXSW 2022 Identity Guidelines | Communication Arts",
+  },
+  {
+    id: 16,
+    img: "https://i.pinimg.com/236x/2d/4d/ce/2d4dce7ef6c040ca3be814e0a306c904.jpg",
+    title: "Danielle Kroll | Communication Arts",
+  },
 ];

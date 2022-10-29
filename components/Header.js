@@ -4,7 +4,6 @@ import Nav from "./Nav";
 
 const Header = () => {
   const [navOpened, setNavOpened] = useState(false);
-  console.log(navOpened);
   return (
     <header>
       <Nav navOpened={navOpened} setNavOpened={setNavOpened} />
